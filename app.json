@@ -7,24 +7,24 @@
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": ""
+            "value": "20018243"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": ""
+            "value": "81233670b0c1e1b726199bcd4ca3effc"
         },
         "WEB_SUPPORT": {
             "description": "if your server is need web service! value = True else value = False",
-            "value": "False"
+            "value": "True"
         },
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
-            "value": "",
+            "value": "FOXMOVIESOFFICIALCHANNEL",
             "required": false 
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "7872248861:AAHn14yV_9hmgch-CEX5gy4mZJlEyOPWP5c"
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split"
@@ -35,7 +35,7 @@
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
-            "value": ""
+            "value": "mongodb+srv://TelegramBots:TelegramBots@cluster0.ztttygj.mongodb.net/"
         },
         "DB_NAME":{ 
             "description":"Your Mongo DB Database Name ",
@@ -44,7 +44,7 @@
         },
         "START_PIC": {
             "description": "Your Bot start cmd Pic from @MT_TelegraPH_Bot",
-            "value": "",
+            "value": "https://graph.org/file/9d21c564bf21b2be7e233-6ff9996971de9b6530.jpg",
             "required": false
         }
     },
