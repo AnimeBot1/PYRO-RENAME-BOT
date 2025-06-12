@@ -28,4 +28,4 @@ services:
       - key: ADMIN
         value: false
       - key: WEB_SUPPORT
-        value: True
+        value: "true"
