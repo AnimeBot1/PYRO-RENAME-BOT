@@ -26,19 +26,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "20018243")
+    API_HASH  = os.environ.get("API_HASH", "81233670b0c1e1b726199bcd4ca3effc")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7872248861:AAHn14yV_9hmgch-CEX5gy4mZJlEyOPWP5c") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://TelegramBots:TelegramBots@cluster0.ztttygj.mongodb.net/")
  
     # other configs
-    BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    BOT_UPTIME  = time.time(05)
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/9d21c564bf21b2be7e233-6ff9996971de9b6530.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7195674717').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "FOXMOVIESOFFICIALCHANNEL") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
     MAX_CONCURRENT_TRANSMISSIONS = int(os.environ.get("MAX_CONCURRENT_TRANSMISSIONS", "2")) # Set the maximum amount of concurrent transmissions (uploads & downloads).
     
