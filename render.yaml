@@ -10,22 +10,22 @@ services:
     autoDeploy: true
     envVars:
       - key: BOT_TOKEN
-        Value: false
+        value: false
       - key: API_ID
-        Value: false
+        value: false
       - key: API_HASH
-        Value: false
+        value: false
       - key: FORCE_SUB
-        Value: false
+        value: false
       - key: LOG_CHANNEL
-        Value: false
+        value: false
       - key: DB_NAME
-        Value: false
+        value: false
       - key: DB_URL
-        Value: false
+        value: false
       - key: START_PIC
-        Value: false
+        value: false
       - key: ADMIN
-        Value: false
+        value: false
       - key: WEB_SUPPORT
-        Value: false
+        value: false
