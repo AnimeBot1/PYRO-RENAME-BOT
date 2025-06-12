@@ -10,22 +10,22 @@ services:
     autoDeploy: true
     envVars:
       - key: BOT_TOKEN
-        value: false
+        value: 7872248861:AAHn14yV_9hmgch-CEX5gy4mZJlEyOPWP5c
       - key: API_ID
-        value: false
+        value: 20018243
       - key: API_HASH
-        value: false
+        value: 81233670b0c1e1b726199bcd4ca3effc
       - key: FORCE_SUB
-        value: false
+        value: FOXMOVIESOFFICIALCHANNEL
       - key: LOG_CHANNEL
-        value: false
+        value: -1002178664515
       - key: DB_NAME
-        value: false
+        value: pyro-botz
       - key: DB_URL
-        value: false
+        value: mongodb+srv://TelegramBots:TelegramBots@cluster0.ztttygj.mongodb.net/
       - key: START_PIC
-        value: false
+        value: https://graph.org/file/9d21c564bf21b2be7e233-6ff9996971de9b6530.jpg
       - key: ADMIN
-        value: false
+        value: 7195674717
       - key: WEB_SUPPORT
         value: true
